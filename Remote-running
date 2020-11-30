@@ -1,0 +1,11 @@
+https://ljvmiranda921.github.io/notebook/2018/01/31/running-a-jupyter-notebook/  : command to link
+https://amber-md.github.io/pytraj/latest/tutorials/remote_jupyter_notebook
+
+
+
+https://jupyter-notebook.readthedocs.io/en/stable/public_server.html  : change the ip
+
+
+jupyter notebook --no-browser --port=8889
+ssh -N -f -L localhost:8888:localhost:8889 username@your_remote_host_name
+localhost:8888
